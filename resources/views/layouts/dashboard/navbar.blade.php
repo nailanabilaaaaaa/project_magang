@@ -20,14 +20,14 @@
                            </p>
                        </a>
                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-                           <a class="dropdown-item" href="{{route('user.profil')}}">Profile</a>
+                           <a class="dropdown-item" href="">Profile</a>
                            <div class="dropdown-divider"></div>
-                           <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                           <a class="dropdown-item" href="" onclick="event.preventDefault();
                                                     document.getElementById('logout-form').submit();">
                                {{ __('Logout') }}
                            </a>
 
-                           <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                           <form id="logout-form" action="" method="POST" class="d-none">
                                @csrf
                            </form>
                        </div>
