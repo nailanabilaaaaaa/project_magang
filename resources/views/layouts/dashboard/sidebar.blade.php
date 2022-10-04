@@ -1,6 +1,6 @@
     <div class="sidebar" data-color="blue" data-background-color="white" data-image="{{asset('templates/dashboard')}}/img/sidebar-3.jpg">
         <div class="logo"><a href="" class="simple-text logo-normal">
-             DEFA ELEKTRIK
+                PORTAL DATA
             </a></div>
         <div class="sidebar-wrapper">
             <ul class="nav">
